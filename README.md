@@ -39,6 +39,20 @@ Also, visit our [wiki](https://github.com/IntelLabs/vdms/wiki)
 to learn more about the VDMS API, and take a look at some of
 the examples/tutorials.
 
+## FL Clients
+
+We have two clients for running FL tasks. The Aggregator client and the Worker client. To run these clients follow these steps.
+
+### Aggregator Client
+```
+python3 client.py
+```
+
+### Worker Client
+```
+python3 client.py <client-port> <vdms-port>
+```
+
 ## Academic Papers
 
 Conference | Links, Cite | Description
