@@ -2,6 +2,9 @@ build/
 db/
 *.gcov
 **/__pycache__/
+fr_client
+*.log
+*.pyc
 
 # VS Code Specific
 .devcontainer
